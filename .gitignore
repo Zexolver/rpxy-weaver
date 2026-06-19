@@ -5,3 +5,9 @@
 # Ignore the dynamically generated proxy configs
 rpxy-generated.toml
 rpxy-l4-generated.toml
+
+
+weaver-bin/
+.weaver-bin/
+rpxy-generated.toml
+rpxy-l4-generated.toml
