@@ -1,0 +1,7 @@
+# .gitignore
+/target
+**/*.rs.bk
+
+# Ignore the dynamically generated proxy configs
+rpxy-generated.toml
+rpxy-l4-generated.toml

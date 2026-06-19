@@ -1,0 +1,17 @@
+# weaver.toml
+rpxy_bin = "rpxy"
+rpxy_l4_bin = "rpxy-l4"
+admin_email = "admin@yourdomain.com"
+
+# The public ports exposed to the internet
+public_http_port = 80
+public_https_port = 443
+
+# The internal ports used to bridge L4 and L7
+internal_http_port = 8080
+internal_https_port = 8443
+
+[[apps]]
+domain = "app.yourdomain.com"
+backend = "127.0.0.1:3000"
+tls = true
